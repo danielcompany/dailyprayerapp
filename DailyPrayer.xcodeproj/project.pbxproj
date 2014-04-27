@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D805A0AB1842AAEE005C5E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0AA1842AAEE005C5E75 /* Foundation.framework */; };
+		D805A0AD1842AAEE005C5E75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0AC1842AAEE005C5E75 /* CoreGraphics.framework */; };
+		D805A0AF1842AAEE005C5E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0AE1842AAEE005C5E75 /* UIKit.framework */; };
+		D805A0B51842AAEE005C5E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D805A0B31842AAEE005C5E75 /* InfoPlist.strings */; };
+		D805A0B71842AAEE005C5E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0B61842AAEE005C5E75 /* main.m */; };
+		D805A0BB1842AAEE005C5E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0BA1842AAEE005C5E75 /* AppDelegate.m */; };
+		D805A0BE1842AAEE005C5E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D805A0BC1842AAEE005C5E75 /* Main.storyboard */; };
+		D805A0C11842AAEE005C5E75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0C01842AAEE005C5E75 /* ViewController.m */; };
+		D805A0C31842AAEE005C5E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D805A0C21842AAEE005C5E75 /* Images.xcassets */; };
+		D805A0CA1842AAEE005C5E75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0C91842AAEE005C5E75 /* XCTest.framework */; };
+		D805A0CB1842AAEE005C5E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0AA1842AAEE005C5E75 /* Foundation.framework */; };
+		D805A0CC1842AAEE005C5E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0AE1842AAEE005C5E75 /* UIKit.framework */; };
+		D805A0D41842AAEE005C5E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D805A0D21842AAEE005C5E75 /* InfoPlist.strings */; };
+		D805A0D61842AAEE005C5E75 /* GridTest3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0D51842AAEE005C5E75 /* GridTest3Tests.m */; };
+		D805A0E11842AB10005C5E75 /* TopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0E01842AB10005C5E75 /* TopicsViewController.m */; };
+		D805A0E41842AC04005C5E75 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0E31842AC04005C5E75 /* DetailViewController.m */; };
+		D81D9D361899C9B600DBB31C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D81D9D341899C9B600DBB31C /* icon.png */; };
+		D81D9D371899C9B600DBB31C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D81D9D351899C9B600DBB31C /* icon@2x.png */; };
+		D8847C8B184EFB720057DE8E /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8847C8A184EFB720057DE8E /* data.plist */; };
+		D8847C9118513DE40057DE8E /* result.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8847C9018513DE40057DE8E /* result.plist */; };
+		D8E7731A1898ADBD004E99AD /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773181898ADBD004E99AD /* bg.png */; };
+		D8E7731B1898ADBD004E99AD /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773191898ADBD004E99AD /* bg@2x.png */; };
+		D8E7731E1898AF29004E99AD /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7731D1898AF29004E99AD /* UIImageView+LBBlurredImage.m */; };
+		D8E773251898BB36004E99AD /* table-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773231898BB36004E99AD /* table-icon.png */; };
+		D8E773261898BB36004E99AD /* table-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773241898BB36004E99AD /* table-icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D805A0CD1842AAEE005C5E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D805A09F1842AAEE005C5E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D805A0A61842AAEE005C5E75;
+			remoteInfo = GridTest3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D805A0A71842AAEE005C5E75 /* DailyPrayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPrayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D805A0AA1842AAEE005C5E75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D805A0AC1842AAEE005C5E75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D805A0AE1842AAEE005C5E75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D805A0B21842AAEE005C5E75 /* DailyPrayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailyPrayer-Info.plist"; sourceTree = "<group>"; };
+		D805A0B41842AAEE005C5E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D805A0B61842AAEE005C5E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D805A0B81842AAEE005C5E75 /* DailyPrayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DailyPrayer-Prefix.pch"; sourceTree = "<group>"; };
+		D805A0B91842AAEE005C5E75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D805A0BA1842AAEE005C5E75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D805A0BD1842AAEE005C5E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D805A0BF1842AAEE005C5E75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D805A0C01842AAEE005C5E75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D805A0C21842AAEE005C5E75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D805A0C81842AAEE005C5E75 /* DailyPrayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPrayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D805A0C91842AAEE005C5E75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D805A0D11842AAEE005C5E75 /* DailyPrayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailyPrayerTests-Info.plist"; sourceTree = "<group>"; };
+		D805A0D31842AAEE005C5E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D805A0D51842AAEE005C5E75 /* GridTest3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridTest3Tests.m; sourceTree = "<group>"; };
+		D805A0DF1842AB10005C5E75 /* TopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicsViewController.h; sourceTree = "<group>"; };
+		D805A0E01842AB10005C5E75 /* TopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicsViewController.m; sourceTree = "<group>"; };
+		D805A0E21842AC04005C5E75 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D805A0E31842AC04005C5E75 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D81D9D341899C9B600DBB31C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D81D9D351899C9B600DBB31C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		D8847C8A184EFB720057DE8E /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		D8847C9018513DE40057DE8E /* result.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = result.plist; sourceTree = "<group>"; };
+		D8E773181898ADBD004E99AD /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		D8E773191898ADBD004E99AD /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		D8E7731C1898AF29004E99AD /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		D8E7731D1898AF29004E99AD /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		D8E773231898BB36004E99AD /* table-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-icon.png"; sourceTree = "<group>"; };
+		D8E773241898BB36004E99AD /* table-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D805A0A41842AAEE005C5E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D805A0AD1842AAEE005C5E75 /* CoreGraphics.framework in Frameworks */,
+				D805A0AF1842AAEE005C5E75 /* UIKit.framework in Frameworks */,
+				D805A0AB1842AAEE005C5E75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D805A0C51842AAEE005C5E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D805A0CA1842AAEE005C5E75 /* XCTest.framework in Frameworks */,
+				D805A0CC1842AAEE005C5E75 /* UIKit.framework in Frameworks */,
+				D805A0CB1842AAEE005C5E75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D805A09E1842AAEE005C5E75 = {
+			isa = PBXGroup;
+			children = (
+				D8E773171898ADAA004E99AD /* images */,
+				D805A0B01842AAEE005C5E75 /* classes */,
+				D805A0CF1842AAEE005C5E75 /* GridTest3Tests */,
+				D805A0A91842AAEE005C5E75 /* Frameworks */,
+				D805A0A81842AAEE005C5E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D805A0A81842AAEE005C5E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D805A0A71842AAEE005C5E75 /* DailyPrayer.app */,
+				D805A0C81842AAEE005C5E75 /* DailyPrayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D805A0A91842AAEE005C5E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D805A0AA1842AAEE005C5E75 /* Foundation.framework */,
+				D805A0AC1842AAEE005C5E75 /* CoreGraphics.framework */,
+				D805A0AE1842AAEE005C5E75 /* UIKit.framework */,
+				D805A0C91842AAEE005C5E75 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D805A0B01842AAEE005C5E75 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D805A0B91842AAEE005C5E75 /* AppDelegate.h */,
+				D805A0BA1842AAEE005C5E75 /* AppDelegate.m */,
+				D805A0BC1842AAEE005C5E75 /* Main.storyboard */,
+				D805A0BF1842AAEE005C5E75 /* ViewController.h */,
+				D805A0C01842AAEE005C5E75 /* ViewController.m */,
+				D805A0C21842AAEE005C5E75 /* Images.xcassets */,
+				D805A0B11842AAEE005C5E75 /* Supporting Files */,
+				D805A0DF1842AB10005C5E75 /* TopicsViewController.h */,
+				D805A0E01842AB10005C5E75 /* TopicsViewController.m */,
+				D805A0E21842AC04005C5E75 /* DetailViewController.h */,
+				D805A0E31842AC04005C5E75 /* DetailViewController.m */,
+				D8847C9018513DE40057DE8E /* result.plist */,
+				D8847C8A184EFB720057DE8E /* data.plist */,
+				D8E7731C1898AF29004E99AD /* UIImageView+LBBlurredImage.h */,
+				D8E7731D1898AF29004E99AD /* UIImageView+LBBlurredImage.m */,
+			);
+			name = classes;
+			path = GridTest3;
+			sourceTree = "<group>";
+		};
+		D805A0B11842AAEE005C5E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D805A0B21842AAEE005C5E75 /* DailyPrayer-Info.plist */,
+				D805A0B31842AAEE005C5E75 /* InfoPlist.strings */,
+				D805A0B61842AAEE005C5E75 /* main.m */,
+				D805A0B81842AAEE005C5E75 /* DailyPrayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D805A0CF1842AAEE005C5E75 /* GridTest3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D805A0D51842AAEE005C5E75 /* GridTest3Tests.m */,
+				D805A0D01842AAEE005C5E75 /* Supporting Files */,
+			);
+			path = GridTest3Tests;
+			sourceTree = "<group>";
+		};
+		D805A0D01842AAEE005C5E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D805A0D11842AAEE005C5E75 /* DailyPrayerTests-Info.plist */,
+				D805A0D21842AAEE005C5E75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8E773171898ADAA004E99AD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D81D9D341899C9B600DBB31C /* icon.png */,
+				D81D9D351899C9B600DBB31C /* icon@2x.png */,
+				D8E773231898BB36004E99AD /* table-icon.png */,
+				D8E773241898BB36004E99AD /* table-icon@2x.png */,
+				D8E773181898ADBD004E99AD /* bg.png */,
+				D8E773191898ADBD004E99AD /* bg@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D805A0A61842AAEE005C5E75 /* DailyPrayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D805A0D91842AAEE005C5E75 /* Build configuration list for PBXNativeTarget "DailyPrayer" */;
+			buildPhases = (
+				D805A0A31842AAEE005C5E75 /* Sources */,
+				D805A0A41842AAEE005C5E75 /* Frameworks */,
+				D805A0A51842AAEE005C5E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyPrayer;
+			productName = GridTest3;
+			productReference = D805A0A71842AAEE005C5E75 /* DailyPrayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D805A0C71842AAEE005C5E75 /* DailyPrayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D805A0DC1842AAEE005C5E75 /* Build configuration list for PBXNativeTarget "DailyPrayerTests" */;
+			buildPhases = (
+				D805A0C41842AAEE005C5E75 /* Sources */,
+				D805A0C51842AAEE005C5E75 /* Frameworks */,
+				D805A0C61842AAEE005C5E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D805A0CE1842AAEE005C5E75 /* PBXTargetDependency */,
+			);
+			name = DailyPrayerTests;
+			productName = GridTest3Tests;
+			productReference = D805A0C81842AAEE005C5E75 /* DailyPrayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D805A09F1842AAEE005C5E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = joe;
+				TargetAttributes = {
+					D805A0C71842AAEE005C5E75 = {
+						TestTargetID = D805A0A61842AAEE005C5E75;
+					};
+				};
+			};
+			buildConfigurationList = D805A0A21842AAEE005C5E75 /* Build configuration list for PBXProject "DailyPrayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D805A09E1842AAEE005C5E75;
+			productRefGroup = D805A0A81842AAEE005C5E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D805A0A61842AAEE005C5E75 /* DailyPrayer */,
+				D805A0C71842AAEE005C5E75 /* DailyPrayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D805A0A51842AAEE005C5E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E773261898BB36004E99AD /* table-icon@2x.png in Resources */,
+				D805A0C31842AAEE005C5E75 /* Images.xcassets in Resources */,
+				D805A0B51842AAEE005C5E75 /* InfoPlist.strings in Resources */,
+				D8E7731A1898ADBD004E99AD /* bg.png in Resources */,
+				D8E7731B1898ADBD004E99AD /* bg@2x.png in Resources */,
+				D8847C8B184EFB720057DE8E /* data.plist in Resources */,
+				D81D9D361899C9B600DBB31C /* icon.png in Resources */,
+				D8847C9118513DE40057DE8E /* result.plist in Resources */,
+				D805A0BE1842AAEE005C5E75 /* Main.storyboard in Resources */,
+				D8E773251898BB36004E99AD /* table-icon.png in Resources */,
+				D81D9D371899C9B600DBB31C /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D805A0C61842AAEE005C5E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D805A0D41842AAEE005C5E75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D805A0A31842AAEE005C5E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D805A0E41842AC04005C5E75 /* DetailViewController.m in Sources */,
+				D805A0C11842AAEE005C5E75 /* ViewController.m in Sources */,
+				D805A0BB1842AAEE005C5E75 /* AppDelegate.m in Sources */,
+				D8E7731E1898AF29004E99AD /* UIImageView+LBBlurredImage.m in Sources */,
+				D805A0E11842AB10005C5E75 /* TopicsViewController.m in Sources */,
+				D805A0B71842AAEE005C5E75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D805A0C41842AAEE005C5E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D805A0D61842AAEE005C5E75 /* GridTest3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D805A0CE1842AAEE005C5E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D805A0A61842AAEE005C5E75 /* DailyPrayer */;
+			targetProxy = D805A0CD1842AAEE005C5E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D805A0B31842AAEE005C5E75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D805A0B41842AAEE005C5E75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D805A0BC1842AAEE005C5E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D805A0BD1842AAEE005C5E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D805A0D21842AAEE005C5E75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D805A0D31842AAEE005C5E75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D805A0D71842AAEE005C5E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D805A0D81842AAEE005C5E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D805A0DA1842AAEE005C5E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridTest3/DailyPrayer-Prefix.pch";
+				INFOPLIST_FILE = "GridTest3/DailyPrayer-Info.plist";
+				PRODUCT_NAME = DailyPrayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D805A0DB1842AAEE005C5E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridTest3/DailyPrayer-Prefix.pch";
+				INFOPLIST_FILE = "GridTest3/DailyPrayer-Info.plist";
+				PRODUCT_NAME = DailyPrayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D805A0DD1842AAEE005C5E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridTest3.app/GridTest3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridTest3/GridTest3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GridTest3Tests/DailyPrayerTests-Info.plist";
+				PRODUCT_NAME = DailyPrayerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D805A0DE1842AAEE005C5E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridTest3.app/GridTest3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridTest3/GridTest3-Prefix.pch";
+				INFOPLIST_FILE = "GridTest3Tests/DailyPrayerTests-Info.plist";
+				PRODUCT_NAME = DailyPrayerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D805A0A21842AAEE005C5E75 /* Build configuration list for PBXProject "DailyPrayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D805A0D71842AAEE005C5E75 /* Debug */,
+				D805A0D81842AAEE005C5E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D805A0D91842AAEE005C5E75 /* Build configuration list for PBXNativeTarget "DailyPrayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D805A0DA1842AAEE005C5E75 /* Debug */,
+				D805A0DB1842AAEE005C5E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D805A0DC1842AAEE005C5E75 /* Build configuration list for PBXNativeTarget "DailyPrayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D805A0DD1842AAEE005C5E75 /* Debug */,
+				D805A0DE1842AAEE005C5E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D805A09F1842AAEE005C5E75 /* Project object */;
+}
