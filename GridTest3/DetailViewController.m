@@ -11,7 +11,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+//having fun?
     // hi from samuel
     // background
     UIImage *background = [UIImage imageNamed:@"bg"];
