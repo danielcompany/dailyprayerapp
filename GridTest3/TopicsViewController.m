@@ -32,8 +32,9 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-
-    cell.textLabel.text = [[topics objectAtIndex:indexPath.row] valueForKey:@"title"];
+    NSString *day = [[topics objectAtIndex:indexPath.row] valueForKey:@"day"];
+    NSString *title = [[topics objectAtIndex:indexPath.row] valueForKey:@"title"];
+    cell.textLabel.text = [ NSString stringWithFormat:@"%@. %@", day, title];
     cell.detailTextLabel.text = [[topics objectAtIndex:indexPath.row] valueForKey:@"reference"];
     
     return cell;
