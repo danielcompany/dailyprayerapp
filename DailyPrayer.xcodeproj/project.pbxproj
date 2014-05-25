@@ -26,7 +26,6 @@
 		D805A0E41842AC04005C5E75 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0E31842AC04005C5E75 /* DetailViewController.m */; };
 		D81D9D361899C9B600DBB31C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D81D9D341899C9B600DBB31C /* icon.png */; };
 		D81D9D371899C9B600DBB31C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D81D9D351899C9B600DBB31C /* icon@2x.png */; };
-		D8847C8B184EFB720057DE8E /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8847C8A184EFB720057DE8E /* data.plist */; };
 		D8847C9118513DE40057DE8E /* result.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8847C9018513DE40057DE8E /* result.plist */; };
 		D8E7731A1898ADBD004E99AD /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773181898ADBD004E99AD /* bg.png */; };
 		D8E7731B1898ADBD004E99AD /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773191898ADBD004E99AD /* bg@2x.png */; };
@@ -72,7 +71,6 @@
 		D805A0E31842AC04005C5E75 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		D81D9D341899C9B600DBB31C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D81D9D351899C9B600DBB31C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		D8847C8A184EFB720057DE8E /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		D8847C9018513DE40057DE8E /* result.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = result.plist; sourceTree = "<group>"; };
 		D8E773181898ADBD004E99AD /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		D8E773191898ADBD004E99AD /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				D805A0E21842AC04005C5E75 /* DetailViewController.h */,
 				D805A0E31842AC04005C5E75 /* DetailViewController.m */,
 				D8847C9018513DE40057DE8E /* result.plist */,
-				D8847C8A184EFB720057DE8E /* data.plist */,
 				D8E7731C1898AF29004E99AD /* UIImageView+LBBlurredImage.h */,
 				D8E7731D1898AF29004E99AD /* UIImageView+LBBlurredImage.m */,
 			);
@@ -284,7 +281,6 @@
 				D805A0B51842AAEE005C5E75 /* InfoPlist.strings in Resources */,
 				D8E7731A1898ADBD004E99AD /* bg.png in Resources */,
 				D8E7731B1898ADBD004E99AD /* bg@2x.png in Resources */,
-				D8847C8B184EFB720057DE8E /* data.plist in Resources */,
 				D81D9D361899C9B600DBB31C /* icon.png in Resources */,
 				D8847C9118513DE40057DE8E /* result.plist in Resources */,
 				D805A0BE1842AAEE005C5E75 /* Main.storyboard in Resources */,
