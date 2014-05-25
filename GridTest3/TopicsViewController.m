@@ -14,13 +14,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // sub header
+    [[UILabel appearanceWhenContainedIn:[UITableViewHeaderFooterView class], nil] setTextColor:[UIColor whiteColor]];
+    [[UILabel appearanceWhenContainedIn:[UITableViewHeaderFooterView class], nil] setFont:
+     [UIFont fontWithName:@"Helvetica-Bold" size:14.0]];
+    [[UIView appearanceWhenContainedIn:[UITableViewHeaderFooterView class], nil] setBackgroundColor:[UIColor darkGrayColor]];
 
     topics = [[NSArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"result" ofType:@"plist"]];
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return @" "; // so that we have some space at the top
+    return @"Pray Daily";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -48,6 +54,10 @@
     NSDictionary *obj = [topics objectAtIndex:indexPath.row];
     // assign to the detail controller
     detail.map = obj;
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 @end
