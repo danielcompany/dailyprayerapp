@@ -42,4 +42,8 @@
     self.dayLabel.text = [NSString stringWithFormat:@"Day %@", [self.map valueForKey:@"day"]];
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 @end
