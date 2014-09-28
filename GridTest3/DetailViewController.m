@@ -8,11 +8,11 @@
 @implementation DetailViewController {
      NSArray *topics;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//having fun?
-    // hi from samuel
+
     // background
     UIImage *background = [UIImage imageNamed:@"bg"];
     UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:background];
