@@ -11,4 +11,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *dayLabel;
 @property (strong, nonatomic) NSString *topic;
 @property (strong, nonatomic) NSDictionary *map;
+- (IBAction)sound:(id)sender;
 @end

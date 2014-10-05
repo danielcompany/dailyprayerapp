@@ -1,12 +1,15 @@
 #import "DetailViewController.h"
 #import "UIImageView+LBBlurredImage.h"
 
+#import <AVFoundation/AVFoundation.h>
+
 @interface DetailViewController ()
 
 @end
 
 @implementation DetailViewController {
-     NSArray *topics;
+    NSArray *topics;
+    AVAudioPlayer *audioPlayer;
 }
 
 - (void)viewDidLoad
@@ -46,4 +49,11 @@
     return YES;
 }
 
+- (IBAction)sound:(id)sender {
+    NSLog(@"button was clicked, day %@.mp3",[self.map valueForKey:@"day"]);
+    NSString *day = [self.map valueForKey:@"day"];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:day ofType:@"mp3"]];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    [audioPlayer play];
+}
 @end
