@@ -10,6 +10,7 @@
 @implementation DetailViewController {
     NSArray *topics;
     AVAudioPlayer *audioPlayer;
+    BOOL isPlaying;
 }
 
 - (void)viewDidLoad
@@ -54,6 +55,13 @@
     NSString *day = [self.map valueForKey:@"day"];
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:day ofType:@"mp3"]];
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
-    [audioPlayer play];
+    if (isPlaying) {
+        [audioPlayer stop];
+        isPlaying = NO;
+    } else {
+        [audioPlayer play];
+        isPlaying = YES;
+    }
+
 }
 @end
