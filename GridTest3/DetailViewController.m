@@ -64,4 +64,12 @@
     }
 
 }
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:(BOOL)animated];    // Call the super class implementation.
+    // Usually calling super class implementation is done before self class implementation, but it's up to your application.
+    if (isPlaying)
+        [audioPlayer stop];
+}
+
 @end
