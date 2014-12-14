@@ -18,7 +18,7 @@
     [super viewDidLoad];
 
     // background
-    UIImage *background = [UIImage imageNamed:@"bg2"];
+    UIImage *background = [UIImage imageNamed:@"bg3"];
     UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:background];
     backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
     [backgroundImageView setImageToBlur:background blurRadius:50 completionBlock:nil]; // blur image

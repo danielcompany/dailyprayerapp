@@ -61,6 +61,8 @@
 		D8847C9118513DE40057DE8E /* result.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8847C9018513DE40057DE8E /* result.plist */; };
 		D88E38B11A229768000D1CE7 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E38AF1A229768000D1CE7 /* bg2.png */; };
 		D88E38B21A229768000D1CE7 /* bg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E38B01A229768000D1CE7 /* bg2@2x.png */; };
+		D8DC0ADF1A3E4DD900418295 /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = D8DC0ADD1A3E4DD900418295 /* bg4.png */; };
+		D8DC0AE01A3E4DD900418295 /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8DC0ADE1A3E4DD900418295 /* bg3.png */; };
 		D8E7731A1898ADBD004E99AD /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773181898ADBD004E99AD /* bg.png */; };
 		D8E7731B1898ADBD004E99AD /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E773191898ADBD004E99AD /* bg@2x.png */; };
 		D8E7731E1898AF29004E99AD /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7731D1898AF29004E99AD /* UIImageView+LBBlurredImage.m */; };
@@ -152,6 +154,8 @@
 		D8847C9018513DE40057DE8E /* result.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = result.plist; sourceTree = "<group>"; };
 		D88E38AF1A229768000D1CE7 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
 		D88E38B01A229768000D1CE7 /* bg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg2@2x.png"; sourceTree = "<group>"; };
+		D8DC0ADD1A3E4DD900418295 /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		D8DC0ADE1A3E4DD900418295 /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
 		D8E773181898ADBD004E99AD /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		D8E773191898ADBD004E99AD /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		D8E7731C1898AF29004E99AD /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
@@ -284,6 +288,8 @@
 			children = (
 				D88E38AF1A229768000D1CE7 /* bg2.png */,
 				D88E38B01A229768000D1CE7 /* bg2@2x.png */,
+				D8DC0ADD1A3E4DD900418295 /* bg4.png */,
+				D8DC0ADE1A3E4DD900418295 /* bg3.png */,
 				D8E9E8F11944CDFA00626DDC /* Icon-29.png */,
 				D8E9E9051944CE0200626DDC /* icon120.png */,
 				81CB516E19E201FC00ED3A10 /* sound.png */,
@@ -431,6 +437,7 @@
 				81AF50B619EB078800220382 /* 17.mp3 in Resources */,
 				D805A0C31842AAEE005C5E75 /* Images.xcassets in Resources */,
 				81AF50B119EB078800220382 /* 12.mp3 in Resources */,
+				D8DC0ADF1A3E4DD900418295 /* bg4.png in Resources */,
 				81AF50B819EB078800220382 /* 19.mp3 in Resources */,
 				81AF50B719EB078800220382 /* 18.mp3 in Resources */,
 				D805A0B51842AAEE005C5E75 /* InfoPlist.strings in Resources */,
@@ -450,6 +457,7 @@
 				D8E9E8FD1944CDFA00626DDC /* Icon-40.png in Resources */,
 				81AF50C019EB078800220382 /* 27.mp3 in Resources */,
 				D8E9E8FB1944CDFA00626DDC /* Icon-29.png in Resources */,
+				D8DC0AE01A3E4DD900418295 /* bg3.png in Resources */,
 				81AF50BC19EB078800220382 /* 23.mp3 in Resources */,
 				D8E9E9011944CDFA00626DDC /* icon.png in Resources */,
 				81AF50C119EB078800220382 /* 28.mp3 in Resources */,
