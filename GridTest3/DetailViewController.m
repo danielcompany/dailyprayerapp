@@ -16,20 +16,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    // background
-    UIImage *background = [UIImage imageNamed:@"bg3"];
-    UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:background];
-    backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
-    [backgroundImageView setImageToBlur:background blurRadius:50 completionBlock:nil]; // blur image
-    [self.view addSubview:backgroundImageView];
-    [self.view sendSubviewToBack:backgroundImageView];
-
+    
     // today's day
     NSDate *date = [NSDate date];
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *components = [calendar components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit) fromDate:date];
     NSInteger dayNumber = [components day];
+    
+
     
     // content
     topics = [[NSArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"result" ofType:@"plist"]];
@@ -44,6 +38,16 @@
     self.prayer.text = [self.map valueForKey:@"prayer"];
     self.prayer.editable = NO;
     self.dayLabel.text = [NSString stringWithFormat:@"Day %@", [self.map valueForKey:@"day"]];
+    
+    
+    // background
+    NSString *imageName = [NSString stringWithFormat:@"bg%@.jpg", [self.map valueForKey:@"day"]];
+    UIImage *background = [UIImage imageNamed:imageName];
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:background];
+    backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
+    [backgroundImageView setImageToBlur:background blurRadius:50 completionBlock:nil]; // blur image
+    [self.view addSubview:backgroundImageView];
+    [self.view sendSubviewToBack:backgroundImageView];
 }
 
 - (BOOL)prefersStatusBarHidden {
