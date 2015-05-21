@@ -117,11 +117,6 @@
 		D805A0BE1842AAEE005C5E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D805A0BC1842AAEE005C5E75 /* Main.storyboard */; };
 		D805A0C11842AAEE005C5E75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0C01842AAEE005C5E75 /* ViewController.m */; };
 		D805A0C31842AAEE005C5E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D805A0C21842AAEE005C5E75 /* Images.xcassets */; };
-		D805A0CA1842AAEE005C5E75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0C91842AAEE005C5E75 /* XCTest.framework */; };
-		D805A0CB1842AAEE005C5E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0AA1842AAEE005C5E75 /* Foundation.framework */; };
-		D805A0CC1842AAEE005C5E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D805A0AE1842AAEE005C5E75 /* UIKit.framework */; };
-		D805A0D41842AAEE005C5E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D805A0D21842AAEE005C5E75 /* InfoPlist.strings */; };
-		D805A0D61842AAEE005C5E75 /* GridTest3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0D51842AAEE005C5E75 /* GridTest3Tests.m */; };
 		D805A0E11842AB10005C5E75 /* TopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0E01842AB10005C5E75 /* TopicsViewController.m */; };
 		D805A0E41842AC04005C5E75 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D805A0E31842AC04005C5E75 /* DetailViewController.m */; };
 		D81D9D361899C9B600DBB31C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D81D9D341899C9B600DBB31C /* icon.png */; };
@@ -149,16 +144,6 @@
 		D8E9E9071944CE0200626DDC /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E9E9051944CE0200626DDC /* icon120.png */; };
 		D8E9E9081944CE0200626DDC /* icon120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E9E9061944CE0200626DDC /* icon120@2x.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D805A0CD1842AAEE005C5E75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D805A09F1842AAEE005C5E75 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D805A0A61842AAEE005C5E75;
-			remoteInfo = GridTest3;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		81A7D00B1A3E5422001F20F4 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
@@ -276,7 +261,6 @@
 		D805A0BF1842AAEE005C5E75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D805A0C01842AAEE005C5E75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D805A0C21842AAEE005C5E75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D805A0C81842AAEE005C5E75 /* PrayDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D805A0C91842AAEE005C5E75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D805A0D11842AAEE005C5E75 /* PrayDailyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrayDailyTests-Info.plist"; sourceTree = "<group>"; };
 		D805A0D31842AAEE005C5E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -323,16 +307,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D805A0C51842AAEE005C5E75 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D805A0CA1842AAEE005C5E75 /* XCTest.framework in Frameworks */,
-				D805A0CC1842AAEE005C5E75 /* UIKit.framework in Frameworks */,
-				D805A0CB1842AAEE005C5E75 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -352,7 +326,6 @@
 			isa = PBXGroup;
 			children = (
 				D805A0A71842AAEE005C5E75 /* PrayDaily.app */,
-				D805A0C81842AAEE005C5E75 /* PrayDailyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -576,24 +549,6 @@
 			productReference = D805A0A71842AAEE005C5E75 /* PrayDaily.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D805A0C71842AAEE005C5E75 /* PrayDailyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D805A0DC1842AAEE005C5E75 /* Build configuration list for PBXNativeTarget "PrayDailyTests" */;
-			buildPhases = (
-				D805A0C41842AAEE005C5E75 /* Sources */,
-				D805A0C51842AAEE005C5E75 /* Frameworks */,
-				D805A0C61842AAEE005C5E75 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D805A0CE1842AAEE005C5E75 /* PBXTargetDependency */,
-			);
-			name = PrayDailyTests;
-			productName = GridTest3Tests;
-			productReference = D805A0C81842AAEE005C5E75 /* PrayDailyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -602,11 +557,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = joe;
-				TargetAttributes = {
-					D805A0C71842AAEE005C5E75 = {
-						TestTargetID = D805A0A61842AAEE005C5E75;
-					};
-				};
 			};
 			buildConfigurationList = D805A0A21842AAEE005C5E75 /* Build configuration list for PBXProject "PrayDaily" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -622,7 +572,6 @@
 			projectRoot = "";
 			targets = (
 				D805A0A61842AAEE005C5E75 /* PrayDaily */,
-				D805A0C71842AAEE005C5E75 /* PrayDailyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -762,14 +711,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D805A0C61842AAEE005C5E75 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D805A0D41842AAEE005C5E75 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -786,23 +727,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D805A0C41842AAEE005C5E75 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D805A0D61842AAEE005C5E75 /* GridTest3Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D805A0CE1842AAEE005C5E75 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D805A0A61842AAEE005C5E75 /* PrayDaily */;
-			targetProxy = D805A0CD1842AAEE005C5E75 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D805A0B31842AAEE005C5E75 /* InfoPlist.strings */ = {
@@ -934,48 +859,6 @@
 			};
 			name = Release;
 		};
-		D805A0DD1842AAEE005C5E75 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridTest3.app/GridTest3";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GridTest3/GridTest3-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "GridTest3Tests/PrayDailyTests-Info.plist";
-				PRODUCT_NAME = PrayDailyTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D805A0DE1842AAEE005C5E75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridTest3.app/GridTest3";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GridTest3/GridTest3-Prefix.pch";
-				INFOPLIST_FILE = "GridTest3Tests/PrayDailyTests-Info.plist";
-				PRODUCT_NAME = PrayDailyTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -993,15 +876,6 @@
 			buildConfigurations = (
 				D805A0DA1842AAEE005C5E75 /* Debug */,
 				D805A0DB1842AAEE005C5E75 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D805A0DC1842AAEE005C5E75 /* Build configuration list for PBXNativeTarget "PrayDailyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D805A0DD1842AAEE005C5E75 /* Debug */,
-				D805A0DE1842AAEE005C5E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
