@@ -521,6 +521,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = joe;
+				TargetAttributes = {
+					D805A0A61842AAEE005C5E75 = {
+						DevelopmentTeam = GLLE8LUMB7;
+					};
+				};
 			};
 			buildConfigurationList = D805A0A21842AAEE005C5E75 /* Build configuration list for PBXProject "PrayDaily" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -791,7 +796,7 @@
 				INFOPLIST_FILE = "GridTest3/PrayDaily-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = PrayDaily;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -806,7 +811,7 @@
 				INFOPLIST_FILE = "GridTest3/PrayDaily-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = PrayDaily;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
