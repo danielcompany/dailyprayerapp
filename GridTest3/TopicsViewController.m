@@ -42,7 +42,7 @@
     NSString *title = [[topics objectAtIndex:indexPath.row] valueForKey:@"title"];
     cell.textLabel.text = [ NSString stringWithFormat:@"%@. %@", day, title];
     cell.detailTextLabel.text = [[topics objectAtIndex:indexPath.row] valueForKey:@"reference"];
-    
+    cell.backgroundColor = UIColor.darkGrayColor;
     return cell;
 }
 
